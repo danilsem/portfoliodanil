@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Index</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="main_nav">
+      <ul class="main_nav__list">
+        <li class="main_nav__list__item"><a href="" class="main_nav__link"><img src="img/icons/Home.png" alt=""></a></li>
+        <li class="main_nav__list__item"><a href="" class="main_nav__link"><img src="img/icons/Gallery.png" alt=""></a></li>
+        <li class="main_nav__list__item"><a href="" class="main_nav__link"><img src="img/icons/Store.png" alt=""></a></li>
+        <li class="main_nav__list__item"><a href="" class="main_nav__link"><img src="img/icons/Contactus.png" alt=""></a></li>
+
+        <li class="main_nav__list__item item-line"></li>
+
+        <li class="main_nav__list__item"><a href="" class="main_nav__link"><img src="img/icons/social/Instagram.png" alt=""></a></li>
+        <li class="main_nav__list__item"><a href="" class="main_nav__link"><img src="img/icons/social/Facebook.png" alt=""></a></li>
+        <li class="main_nav__list__item"><a href="" class="main_nav__link"><img src="img/icons/social/Twitter.png" alt=""></a></li>
+        <li class="main_nav__list__item"><a href="" class="main_nav__link"><img src="img/icons/social/WhatsApp.png" alt=""></a></li>
+      </ul>
+      <!--<div class="main_nav__line"></div>-->
+    </nav>
+    <div class="main-container swiper-container">
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-wrapper">
+        <div class="main-container__slide swiper-slide" style="background: url(img/01.jpg) center no-repeat; background-size: cover;">
+          <img src="img/01.jpg" alt="">
+          <div class="main-container__slide__body">
+            <h2 class="main-container__slide__title">Limitless</h2>
+            <div class="main-container__slide__bottom">
+              <div class="main-container__slide__bottom-actions">
+                <a href="#" class="main-container__slide__btn">More</a>
+              </div>
+              <div class="main-container__slide__desc">
+                <h3 class="main-container__slide__desc-title">Project</h3>
+                <p class="main-container__slide__desc-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nam repudiandae harum reiciendis quidem cum deleniti
+                  error et nesciunt debitis ducimus nemo provident,
+                  voluptatem eligendi architecto iusto sunt, quisquam optio.
+                  Odit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-container__slide swiper-slide" style="background: url(img/02.jpg) center no-repeat; background-size: cover;">
+          <img src="img/02.jpg" alt="">
+          <div class="main-container__slide__body">
+            <h2 class="main-container__slide__title">Fresh</h2>
+            <div class="main-container__slide__bottom">
+              <div class="main-container__slide__bottom-actions">
+                <a href="#" class="main-container__slide__btn">More</a>
+              </div>
+              <div class="main-container__slide__desc">
+                <h3 class="main-container__slide__desc-title">Project</h3>
+                <p class="main-container__slide__desc-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nam repudiandae harum reiciendis quidem cum deleniti
+                  error et nesciunt debitis ducimus nemo provident,
+                  voluptatem eligendi architecto iusto sunt, quisquam optio.
+                  Odit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>
